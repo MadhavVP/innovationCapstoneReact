@@ -1,7 +1,7 @@
 const INFO = {
 	main: {
-		title: "ARC Folio Template",
-		name: "ARC",
+		title: "Purdue Innovation Capstone",
+		name: "Purdue",
 		email: "autonomy@purdue.edu",
 		logo: "../logo.png",
 	},
@@ -16,7 +16,7 @@ const INFO = {
 	},
 
 	homepage: {
-		title: "Engineer... Developer... AI...",
+		title: "Purdue Innovation Capstone",
 		description:
 			"lorem ipsum dolor",
 	},
