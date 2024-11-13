@@ -46,7 +46,7 @@ const NavBar = (props) => {
 										: "nav-item"
 								}
 							>
-								<Link to="/education">Browser</Link>
+								<Link to="/browser">Browser</Link>
 							</li>
 							<li
 								className={

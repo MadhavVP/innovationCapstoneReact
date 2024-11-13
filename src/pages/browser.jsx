@@ -4,7 +4,7 @@ import { Helmet } from "react-helmet";
 import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
 import Logo from "../components/common/logo";
-import Socials from "../components/about/socials";
+//import Socials from "../components/about/socials";
 
 import INFO from "../data/user";
 import SEO from "../data/seo";
@@ -16,7 +16,7 @@ const Browser = () => {
 		window.scrollTo(0, 0);
 	}, []);
 
-	const currentSEO = SEO.find((item) => item.page === "Browser");
+	const currentSEO = SEO.find((item) => item.page === "browser");
 
 	return (
 		<React.Fragment>
@@ -30,7 +30,7 @@ const Browser = () => {
 			</Helmet>
 
 			<div className="page-content">
-				<NavBar active="browser" />
+				<NavBar active="about" />
 				<div className="content-wrapper">
 					<div className="about-logo-container">
 						<div className="about-logo">
@@ -42,11 +42,11 @@ const Browser = () => {
 						<div className="about-main">
 							<div className="about-right-side">
 								<div className="title about-title">
-									{INFO.about.title}
+									{INFO.browser.title}
 								</div>
 
 								<div className="subtitle about-subtitle">
-									{INFO.about.description}
+									{INFO.browser.description}
 								</div>
 							</div>
 
@@ -60,14 +60,7 @@ const Browser = () => {
 										/>
 									</div>
 								</div>
-
-								<div className="about-socials">
-									<Socials />
-								</div>
 							</div>
-						</div>
-						<div className="about-socials-mobile">
-							<Socials />
 						</div>
 					</div>
 					<div className="page-footer">

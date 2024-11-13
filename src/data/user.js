@@ -33,6 +33,12 @@ const INFO = {
 			"brief description of education",
 	},
 
+	browser: {
+		title: "Browser",
+		description:
+			"brief description of browser add-on",
+	},
+
 	projects: [
 		{
 			title: "Project 1",
