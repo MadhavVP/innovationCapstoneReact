@@ -3,7 +3,7 @@ const INFO = {
 		title: "Purdue Innovation Capstone",
 		name: "Purdue",
 		email: "autonomy@purdue.edu",
-		logo: "../logo.png",
+		logo: "../PurdueLogo.png",
 	},
 
 	socials: {
