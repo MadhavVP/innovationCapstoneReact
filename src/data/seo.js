@@ -40,6 +40,27 @@ const SEO = [
 			"If you're interested in collaborating on a project, feel free to reach out to me. I'm always open to new ideas and opportunities.",
 		keywords: ["purduearc"],
 	},
+
+	{
+		page: "policy",
+		description:
+			"If you're interested in collaborating on a project, feel free to reach out to me. I'm always open to new ideas and opportunities.",
+		keywords: ["purduearc"],
+	},
+
+	{
+		page: "resources",
+		description:
+			"If you're interested in collaborating on a project, feel free to reach out to me. I'm always open to new ideas and opportunities.",
+		keywords: ["purduearc"],
+	},
+
+	{
+		page: "resourcescs",
+		description:
+			"If you're interested in collaborating on a project, feel free to reach out to me. I'm always open to new ideas and opportunities.",
+		keywords: ["purduearc"],
+	},
 ];
 
 export default SEO;

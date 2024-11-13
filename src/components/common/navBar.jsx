@@ -30,7 +30,7 @@ const NavBar = (props) => {
 							>
 								<Link to="/education">Education</Link>
 							</li>
-							<li
+							{/* <li
 								className={
 									active === "projects"
 										? "nav-item active"
@@ -38,7 +38,7 @@ const NavBar = (props) => {
 								}
 							>
 								<Link to="/projects">Projects</Link>
-							</li>
+							</li> */}
 							<li
 								className={
 									active === "Browser"
@@ -50,13 +50,32 @@ const NavBar = (props) => {
 							</li>
 							<li
 								className={
+									active === "Policy"
+										? "nav-item active"
+										: "nav-item"
+								}
+							>
+								<Link to="/policy">Policy</Link>
+							</li>
+							<li
+								className={
+									active === "Resources"
+										? "nav-item active"
+										: "nav-item"
+								}
+							>
+								<Link to="/resources">Resources</Link>
+								{/*<Link to="/resourcescs">CS Resources</Link>*/}
+							</li>
+							{/* <li
+								className={
 									active === "contact"
 										? "nav-item active"
 										: "nav-item"
 								}
 							>
 								<Link to="/contact">Contact</Link>
-							</li>
+							</li> */}
 						</ul>
 					</div>
 				</nav>

@@ -39,6 +39,24 @@ const INFO = {
 			"brief description of browser add-on",
 	},
 
+	policy: {
+		title: "Policy Report",
+		description:
+			"brief description of policy report",
+	},
+
+	resources: {
+		title: "Resources",
+		description:
+			"brief description of resources",
+	},
+
+	resourcescs: {
+		title: "CS Resources",
+		description:
+			"brief description of cs resources",
+	},
+
 	projects: [
 		{
 			title: "Project 1",
