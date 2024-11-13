@@ -11,17 +11,17 @@ import SEO from "../data/seo";
 
 import "./styles/about.css";
 
-const About = () => {
+const Browser = () => {
 	useEffect(() => {
 		window.scrollTo(0, 0);
 	}, []);
 
-	const currentSEO = SEO.find((item) => item.page === "about");
+	const currentSEO = SEO.find((item) => item.page === "Browser");
 
 	return (
 		<React.Fragment>
 			<Helmet>
-				<title>{`About | ${INFO.main.title}`}</title>
+				<title>{`Browser | ${INFO.main.title}`}</title>
 				<meta name="description" content={currentSEO.description} />
 				<meta
 					name="keywords"
@@ -30,7 +30,7 @@ const About = () => {
 			</Helmet>
 
 			<div className="page-content">
-				<NavBar active="about" />
+				<NavBar active="browser" />
 				<div className="content-wrapper">
 					<div className="about-logo-container">
 						<div className="about-logo">
@@ -79,4 +79,4 @@ const About = () => {
 	);
 };
 
-export default About;
+export default Browser;

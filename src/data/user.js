@@ -27,6 +27,12 @@ const INFO = {
 			"lorem ipsum dolor",
 	},
 
+	education: {
+		title: "Education",
+		description:
+			"brief description of education",
+	},
+
 	projects: [
 		{
 			title: "Project 1",

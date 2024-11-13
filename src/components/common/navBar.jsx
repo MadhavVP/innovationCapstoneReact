@@ -41,6 +41,15 @@ const NavBar = (props) => {
 							</li>
 							<li
 								className={
+									active === "Browser"
+										? "nav-item active"
+										: "nav-item"
+								}
+							>
+								<Link to="/education">Browser</Link>
+							</li>
+							<li
+								className={
 									active === "contact"
 										? "nav-item active"
 										: "nav-item"

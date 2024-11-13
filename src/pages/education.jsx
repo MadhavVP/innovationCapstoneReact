@@ -4,14 +4,14 @@ import { Helmet } from "react-helmet";
 import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
 import Logo from "../components/common/logo";
-import Socials from "../components/about/socials";
+//import Socials from "../components/about/socials";
 
 import INFO from "../data/user";
 import SEO from "../data/seo";
 
 import "./styles/about.css";
 
-const About = () => {
+const Education = () => {
 	useEffect(() => {
 		window.scrollTo(0, 0);
 	}, []);
@@ -21,7 +21,7 @@ const About = () => {
 	return (
 		<React.Fragment>
 			<Helmet>
-				<title>{`About | ${INFO.main.title}`}</title>
+				<title>{`Education | ${INFO.main.title}`}</title>
 				<meta name="description" content={currentSEO.description} />
 				<meta
 					name="keywords"
@@ -42,11 +42,11 @@ const About = () => {
 						<div className="about-main">
 							<div className="about-right-side">
 								<div className="title about-title">
-									{INFO.about.title}
+									{INFO.education.title}
 								</div>
 
 								<div className="subtitle about-subtitle">
-									{INFO.about.description}
+									{INFO.education.description}
 								</div>
 							</div>
 
@@ -60,14 +60,7 @@ const About = () => {
 										/>
 									</div>
 								</div>
-
-								<div className="about-socials">
-									<Socials />
-								</div>
 							</div>
-						</div>
-						<div className="about-socials-mobile">
-							<Socials />
 						</div>
 					</div>
 					<div className="page-footer">
@@ -79,4 +72,4 @@ const About = () => {
 	);
 };
 
-export default About;
+export default Education;
