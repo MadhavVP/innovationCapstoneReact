@@ -13,7 +13,7 @@ import {
 import Logo from "../components/common/logo";
 import Footer from "../components/common/footer";
 import NavBar from "../components/common/navBar";
-import Works from "../components/homepage/works";
+//import Works from "../components/homepage/works";
 import AllProjects from "../components/projects/allProjects";
 
 import INFO from "../data/user";
@@ -170,9 +170,9 @@ const Homepage = () => {
 
 						<div className="homepage-after-title">
 
-							<div className="homepage-works">
+							{/* <div className="homepage-works">
 								<Works />
-							</div>
+							</div> */}
 						</div>
 
 						<div className="page-footer">

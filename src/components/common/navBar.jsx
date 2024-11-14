@@ -47,7 +47,7 @@ const NavBar = (props) => {
 							</li> */}
 							<li
 								className={
-									active === "Browser"
+									active === "browser"
 										? "nav-item active"
 										: "nav-item"
 								}
@@ -56,7 +56,7 @@ const NavBar = (props) => {
 							</li>
 							<li
 								className={
-									active === "Policy"
+									active === "policy"
 										? "nav-item active"
 										: "nav-item"
 								}
@@ -65,7 +65,7 @@ const NavBar = (props) => {
 							</li>
 							<li
 								className={
-									active === "Resources"
+									active === "resddources"
 										? "nav-item active"
 										: "nav-item"
 								}

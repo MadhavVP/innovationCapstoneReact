@@ -30,7 +30,7 @@ const Policy = () => {
 			</Helmet>
 
 			<div className="page-content">
-				<NavBar active="about" />
+				<NavBar active="policy" />
 				<div className="content-wrapper">
 					<div className="about-logo-container">
 						<div className="about-logo">

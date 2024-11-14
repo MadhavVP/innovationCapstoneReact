@@ -30,7 +30,7 @@ const Resourcescs = () => {
 			</Helmet>
 
 			<div className="page-content">
-				<NavBar active="about" />
+				<NavBar active="resourcescs" />
 				<div className="content-wrapper">
 					<div className="about-logo-container">
 						<div className="about-logo">

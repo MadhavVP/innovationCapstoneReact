@@ -30,7 +30,7 @@ const Browser = () => {
 			</Helmet>
 
 			<div className="page-content">
-				<NavBar active="about" />
+				<NavBar active="browser" />
 				<div className="content-wrapper">
 					<div className="about-logo-container">
 						<div className="about-logo">

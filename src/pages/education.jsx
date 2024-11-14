@@ -30,7 +30,7 @@ const Education = () => {
 			</Helmet>
 
 			<div className="page-content">
-				<NavBar active="about" />
+				<NavBar active="education" />
 				<div className="content-wrapper">
 					<div className="about-logo-container">
 						<div className="about-logo">

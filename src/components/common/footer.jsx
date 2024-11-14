@@ -13,13 +13,22 @@ const Footer = () => {
 							<Link to="/">Home</Link>
 						</li>
 						<li className="footer-nav-link-item">
-							<Link to="/about">About</Link>
+							<Link to="/education">Education</Link>
 						</li>
 						<li className="footer-nav-link-item">
-							<Link to="/projects">Projects</Link>
+							<Link to="/browser">Browser</Link>
 						</li>
 						<li className="footer-nav-link-item">
-							<Link to="/contact">Contact</Link>
+							<Link to="/policy">Policy</Link>
+						</li>
+						<li className="footer-nav-link-item">
+							<Link to="/resourcescs">CS Resources</Link>
+						</li>
+						<li className="footer-nav-link-item">
+							<Link to="/resources">Resources</Link>
+						</li>
+						<li className="footer-nav-link-item">
+							<Link to="/contact">Contact Us</Link>
 						</li>
 					</ul>
 				</div>

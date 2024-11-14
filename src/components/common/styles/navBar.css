@@ -81,6 +81,15 @@
 	position: relative;
 }
 
+.dropdown.active a {
+	color: var(--link-color) !important;
+}
+
+.dropdown a {
+	text-decoration: none;
+	color: var(--primary-color);
+}
+
 .dropdown {
 	position: absolute;
 	text-align: center;
