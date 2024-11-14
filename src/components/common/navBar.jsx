@@ -1,10 +1,16 @@
-import React from "react";
+// import React from "react";
 import { Link } from "react-router-dom";
+import React, {useState} from "react";
 
 import "./styles/navBar.css";
 
 const NavBar = (props) => {
 	const { active } = props;
+	const [dropdownOpen, setDropdown] = useState(false);
+
+	const toggleDropdown = () => {
+		setDropdown(!dropdownOpen);
+	};
 
 	return (
 		<React.Fragment>
@@ -23,7 +29,7 @@ const NavBar = (props) => {
 							</li>
 							<li
 								className={
-									active === "Education"
+									active === "education"
 										? "nav-item active"
 										: "nav-item"
 								}
@@ -63,9 +69,17 @@ const NavBar = (props) => {
 										? "nav-item active"
 										: "nav-item"
 								}
+								onMouseEnter={toggleDropdown}
+								onMouseLeave={toggleDropdown}
 							>
-								<Link to="/resources">Resources</Link>
-								{/*<Link to="/resourcescs">CS Resources</Link>*/}
+								<span>Resources</span>
+								{dropdownOpen && (
+								<ul className="dropdown">
+									<li><Link to="/resourcescs">CS Resources</Link></li>
+									<li><Link to="/resources">Resources</Link></li>
+								</ul>
+								)}
+								{/* <Link to="/resources">Resources</Link> */}
 							</li>
 							{/* <li
 								className={

@@ -50,7 +50,7 @@ const Resourcescs = () => {
 								</div>
 							</div>
 
-							<div className="about-left-side">
+							{/* <div className="about-left-side">
 								<div className="about-image-container">
 									<div className="about-image-wrapper">
 										<img
@@ -60,8 +60,15 @@ const Resourcescs = () => {
 										/>
 									</div>
 								</div>
-							</div>
+							</div> */}
 						</div>
+						<div className="about-container">
+
+						</div>
+					</div>
+					<div align="center">
+						<iframe title="notion" src="https://v2-embednotion.com/12fbee3db0bc807ea5b4f3d5be093b03" 
+        					width="100%" height="1000px" border="2px" solid="#ccc" border-radius="10px" padding="none"></iframe>
 					</div>
 					<div className="page-footer">
 						<Footer />
