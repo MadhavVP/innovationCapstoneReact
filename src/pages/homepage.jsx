@@ -102,7 +102,7 @@ const Homepage = () => {
 								<div className="homepage-image-container">
 									<div className="homepage-image-wrapper">
 										<img
-											src="PU-V-Full-RGB.png"
+											src="PurdueLogo.png"
 											alt="about"
 											className="homepage-image"
 										/>

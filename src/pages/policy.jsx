@@ -50,7 +50,7 @@ const Policy = () => {
 								</div>
 							</div>
 
-							<div className="about-left-side">
+							{/* <div className="about-left-side">
 								<div className="about-image-container">
 									<div className="about-image-wrapper">
 										<img
@@ -60,8 +60,14 @@ const Policy = () => {
 										/>
 									</div>
 								</div>
-							</div>
+							</div> */}
 						</div>
+						<div className="about-container">
+
+						</div>
+					</div>
+					<div align="center">
+						<iframe title="Report" src="https://drive.google.com/file/d/1S3sNnV6rp2rwjZKL7zj5CAhZ4t1TptbY/preview" width="640" height="480" allow="autoplay"></iframe>
 					</div>
 					<div className="page-footer">
 						<Footer />

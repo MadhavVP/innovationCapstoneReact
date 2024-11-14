@@ -18,7 +18,17 @@ const INFO = {
 	homepage: {
 		title: "Purdue Innovation Capstone",
 		description:
-			"lorem ipsum dolor",
+			"In our current moment, often known colloquially as the \"Information Age,\" the" +
+			" veracity of information is of incredible importance, yet we see the viral spread" +
+			" and consumption of \"bad\" information: misinformation, disinformation, and" +
+			" malinformation. These three forms of information are spread globally regarding" + 
+			" every event, from U.S. presidential elections to COVID health protocols, from the" +
+			" Russian invasion of Ukraine to the Maui wildfires. Even though more people have access" +
+			" to information sources than ever before, we still are living in the age of mis/dis/malinformation." +
+			" In this course, a multidisciplinary team of students developed a comprehensive web resource for" +
+			" understanding dis/misinformation deigned to destabilize social and political processes." +
+			" We also assembled information literacy tools to help citizens understand how to spot and" +
+			" understand mis/disinformation. Our work can be accessed below.",
 	},
 
 	about: {
