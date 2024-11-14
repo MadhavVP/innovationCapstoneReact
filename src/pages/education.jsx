@@ -48,21 +48,24 @@ const Education = () => {
 								<div className="subtitle about-subtitle">
 									{INFO.education.description}
 								</div>
-							</div>
-
-							<div className="about-left-side">
-								<div className="about-image-container">
-									<div className="about-image-wrapper">
-										<img
-											src="PU-V-Full-RGB.png"
-											alt="about"
-											className="about-image"
-										/>
-									</div>
 								</div>
+
+								{/* <div className="about-left-side">
+									<div className="about-image-container">
+										<div className="about-image-wrapper">
+											<img
+												src="PU-V-Full-RGB.png"
+												alt="about"
+												className="about-image"
+											/>
+										</div>
+									</div>
+								</div> */}
+							</div>
+							<div className="about-container">
+
 							</div>
 						</div>
-					</div>
 					<div className="page-footer">
 						<Footer />
 					</div>

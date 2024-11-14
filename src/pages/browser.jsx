@@ -50,7 +50,7 @@ const Browser = () => {
 								</div>
 							</div>
 
-							<div className="about-left-side">
+							{/* <div className="about-left-side">
 								<div className="about-image-container">
 									<div className="about-image-wrapper">
 										<img
@@ -60,9 +60,12 @@ const Browser = () => {
 										/>
 									</div>
 								</div>
-							</div>
+							</div> */}
 						</div>
 					</div>
+					<div className="about-container">
+
+						</div>
 					<div className="page-footer">
 						<Footer />
 					</div>
