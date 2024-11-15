@@ -106,6 +106,7 @@
 	width: 120px;
 	border-bottom-left-radius: 40px;
 	border-bottom-right-radius: 30px;
+	border-top-right-radius: 10px;
 }
 
 .dropdown li {
