@@ -2,14 +2,14 @@ const INFO = {
 	main: {
 		title: "Purdue Innovation Capstone",
 		name: "Purdue",
-		email: "autonomy@purdue.edu",
+		email: "hannah8@purdue.edu",
 		logo: "../PurdueLogo.png",
 	},
 
 	socials: {
 		twitter: "https://twitter.com/",
-		github: "https://github.com/",
-		linkedin: "https://linkedin.com/",
+		github: "https://github.com/Purdue-Innovation-Capstone",
+		linkedin: "https://www.linkedin.com/in/matthewhannahinfostudies/",
 		instagram: "https://instagram.com/",
 		stackoverflow: "https://stackoverflow.com/",
 		facebook: "https://facebook.com/",
@@ -46,7 +46,12 @@ const INFO = {
 	browser: {
 		title: "Browser",
 		description:
-			"brief description of browser add-on",
+			"The Misinformation Awareness Browser Extension aims to stop the" +
+			" spread of misinformation and disinformation" +
+			" in the online community by " +
+			" alerting users when they visit" +
+			" websites flagged for harmful or misleading content," +
+			" encouraging extra caution before engaging any media.",
 	},
 
 	policy: {
@@ -69,48 +74,50 @@ const INFO = {
 
 	projects: [
 		{
-			title: "Project 1",
+			title: "Education Modules",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+				"Description of education modules",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "/education",
 		},
 
 		{
-			title: "Project 2",
+			title: "Browser Extension",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+				"A browser extension is designed to increase" +
+				" awareness about misinformation by warning users" +
+				" when they encounter flagged websites.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "/browser",
 		},
 
 		{
-			title: "Project 3",
+			title: "Policy Proposal",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+				"Description of policy",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "/policy",
 		},
 
 		{
-			title: "Project 4",
+			title: "Researcher Resources",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+				"Description of CS resources",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "/resourcescs",
 		},
 
 		{
-			title: "Project 5",
+			title: "Resources",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+				"Description of resources",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "/resources",
 		},
 	],
 };

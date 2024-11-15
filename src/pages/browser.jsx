@@ -48,6 +48,36 @@ const Browser = () => {
 								<div className="subtitle about-subtitle">
 									{INFO.browser.description}
 								</div>
+
+								<div className="about-subheading">
+									How's it work?
+								</div>
+
+								<div className="subtitle about-subtitle">
+								The extension works by cross-referencing the URL
+								 of websites that users visit with a pre-defined
+								  list of flagged domains stored in a .csv file. 
+								  If the site is found in this file, the extension 
+								  alerts the user with one of two icons:
+								  <ul>
+									<li><b>Icon 1:</b> A <b>red circle with a white exclamation 
+										mark</b> indicates that the website has been flagged 
+										for misinformation or disinformation.</li>
+									<li><b>Icon 2:</b> A <b>gray circle</b> signals caution for sites 
+										with no definitive information in the CSV, 
+										reminding users to be vigilant.</li>
+								  </ul>
+								</div>
+
+								<div className="about-subheading">
+									Where can I get it?
+								</div>
+
+								<div className="subtitle about-subtitle">
+									You can download this extension from 
+									our <a className="subtitle about-link" target="_blank" rel="noreferrer" href="https://github.com/Purdue-Innovation-Capstone/browser">GitHub repository</a> or 
+									from the <a className="subtitle about-link" target="_blank" rel="noreferrer" href="https://chromewebstore.google.com/category/extensions">Chrome web store</a>. 
+								</div>
 							</div>
 
 							{/* <div className="about-left-side">

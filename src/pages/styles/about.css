@@ -37,6 +37,35 @@
 	width: 80% !important;
 }
 
+.about-subtitle-bold {
+	width: 80% !important;
+	font-weight: 100;
+}
+
+.about-link {
+	width: 80% !important;
+	color: var(--tertiary-color);
+}
+
+.about-link:hover {
+	color: var(--link-color);
+	transition: color 0.3s ease-in-out;
+}
+
+/* .about-link:visited {
+	color: var(--link-color);
+	transition: color 0.3s ease-in-out;
+} */
+
+.about-subheading {
+	font-family: var(--secondary-font);
+	color: var(--primary-color);
+	font-size: 30px;
+	padding-top: 45px;
+	margin-bottom: 1em;
+	font-weight: 700;
+}
+
 .about-left-side {
 	display: flex;
 	flex-direction: column;
