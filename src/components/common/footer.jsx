@@ -12,22 +12,22 @@ const Footer = () => {
 						<li className="footer-nav-link-item">
 							<Link to="/">Home</Link>
 						</li>
-						<li className="footer-nav-link-item">
+						<li className="footer-nav-link-item-b">
 							<Link to="/education">Education</Link>
 						</li>
-						<li className="footer-nav-link-item">
+						<li className="footer-nav-link-item-b">
 							<Link to="/browser">Browser</Link>
 						</li>
-						<li className="footer-nav-link-item">
+						<li className="footer-nav-link-item-b">
 							<Link to="/policy">Policy</Link>
 						</li>
-						<li className="footer-nav-link-item">
+						<li className="footer-nav-link-item-b">
 							<Link to="/resourcescs">CS Resources</Link>
 						</li>
-						<li className="footer-nav-link-item">
+						<li className="footer-nav-link-item-b">
 							<Link to="/resources">Resources</Link>
 						</li>
-						<li className="footer-nav-link-item">
+						<li className="footer-nav-link-item-b">
 							<Link to="/contact">Contact Us</Link>
 						</li>
 					</ul>
