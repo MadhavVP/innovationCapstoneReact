@@ -93,6 +93,13 @@
 	padding-top: 30px;
 }
 
+@media screen and (max-width: 1024px) {
+	.homepage-first-area-right-side {
+		display: none;
+		height: 0px;
+	}
+}
+
 @media (max-width: 1024px) {
 	.homepage-first-area {
 		flex-direction: column;
