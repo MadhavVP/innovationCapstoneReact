@@ -55,6 +55,12 @@
 	transition: color 0.3s ease-in-out;
 }
 
+.nav-item:hover span {
+	color: var(--link-color); 
+	transition: color 0.3s ease-in-out;
+	/* cursor: pointer;  */
+  }
+
 @media (max-width: 600px) {
 	.navbar {
 		margin-left: 25%;
@@ -95,7 +101,7 @@
 	text-align: center;
 	top: 100%;
 	left: 0;
-	transform: translateX(-32%); /* Center-align the dropdown under the Resources tab */
+	transform: translateX(-22%); /* Center-align the dropdown under the Resources tab */
 	background-color: #ffffff;
 	box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
 	list-style-type: none;
@@ -104,10 +110,10 @@
 	display: flex;
 	flex-direction: column;
 	width: 120px;
-	border-bottom-left-radius: 40px;
-	border-bottom-right-radius: 30px;
-	border-top-right-radius: 10px;
-	border-top-left-radius: 10px;
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
 }
 
 .dropdown li {

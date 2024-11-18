@@ -65,7 +65,7 @@ const NavBar = (props) => {
 							</li>
 							<li
 								className={
-									active === "resddources"
+									active === "resourcesmain"
 										? "nav-item active"
 										: "nav-item"
 								}
@@ -76,7 +76,7 @@ const NavBar = (props) => {
 								{dropdownOpen && (
 								<ul className="dropdown">
 									<li><Link to="/resourcescs">CS Resources</Link></li>
-									<li><Link to="/resources">Resources</Link></li>
+									<li><Link to="/resources">Gen Resources</Link></li>
 								</ul>
 								)}
 								{/* <Link to="/resources">Resources</Link> */}

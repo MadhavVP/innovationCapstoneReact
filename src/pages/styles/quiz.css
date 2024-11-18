@@ -1,0 +1,146 @@
+.quiz-logo-container {
+	display: flex;
+	justify-content: left;
+	padding-top: 25px;
+}
+
+.quiz-logo {
+	display: flex;
+	position: fixed;
+	border: 1px solid white;
+	border-radius: 50%;
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+	top: 4vh;
+}
+
+.quiz-container {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	margin: 0;
+	padding-top: 120px;
+}
+
+.quiz-main {
+	display: flex;
+}
+
+.quiz-right-side {
+	flex-basis: 900px;
+}
+
+.quiz-title {
+	width: 100% !important;
+}
+
+.quiz-subtitle {
+	width: 80% !important;
+}
+
+.quiz-subtitle-bold {
+	width: 80% !important;
+	font-weight: 100;
+}
+
+.quiz-link {
+	width: 80% !important;
+	color: var(--tertiary-color);
+}
+
+.quiz-link:hover {
+	color: var(--link-color);
+	transition: color 0.3s ease-in-out;
+}
+
+/* .quiz-link:visited {
+	color: var(--link-color);
+	transition: color 0.3s ease-in-out;
+} */
+
+.quiz-subheading {
+	font-family: var(--secondary-font);
+	color: var(--primary-color);
+	font-size: 30px;
+	padding-top: 45px;
+	margin-bottom: 1em;
+	font-weight: 700;
+}
+
+.quiz-left-side {
+	display: flex;
+	flex-direction: column;
+	flex-basis: 300px;
+}
+
+.quiz-image-container {
+	width: 370px;
+}
+
+.quiz-image-wrapper {
+	display: inline-block;
+	overflow: hidden;
+	width: 100%;
+	border-radius: 10%;
+	transform: rotate(3deg);
+}
+
+.quiz-image-wrapper img {
+	display: block;
+	width: 100%;
+}
+
+.quiz-socials {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.quiz-socials-mobile {
+	display: none;
+}
+
+@media (max-width: 1024px) {
+	.quiz-logo {
+		z-index: 100;
+	}
+
+	.quiz-main {
+		flex-direction: column;
+	}
+
+	.quiz-subtitle {
+		padding-top: 20px !important;
+	}
+
+	.quiz-left-side {
+		flex-basis: 100%;
+		order: 1;
+	}
+
+	.quiz-right-side {
+		flex-basis: 100%;
+		order: 2;
+	}
+
+	.quiz-image-container {
+		padding-bottom: 40px;
+	}
+
+	.quiz-socials {
+		display: none;
+	}
+
+	.quiz-socials-mobile {
+		padding-top: 30px;
+		display: flex;
+	}
+}
+
+@media (max-width: 600px) {
+	.quiz-container {
+		padding-top: 60px;
+	}
+
+	.quiz-image-container {
+		width: 80%;
+	}
+}

@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import { Helmet } from "react-helmet";
 
 import { faMailBulk } from "@fortawesome/free-solid-svg-icons";
@@ -25,6 +26,7 @@ const Homepage = () => {
 	const [stayLogo, setStayLogo] = useState(false);
 	const [logoSize, setLogoSize] = useState(80);
 	const [oldLogoSize, setOldLogoSize] = useState(80);
+	const navigate = useNavigate();
 
 	useEffect(() => {
 		window.scrollTo(0, 0);
@@ -167,14 +169,10 @@ const Homepage = () => {
 						<div className="homepage-projects">
 							<AllProjects />
 						</div>
-
-						<div className="homepage-after-title">
-
-							{/* <div className="homepage-works">
-								<Works />
-							</div> */}
-						</div>
-
+						
+						<button onClick={() => navigate("/quiz")} className="quiz-button">
+							Take Quiz
+						</button>
 						<div className="page-footer">
 							<Footer />
 						</div>
