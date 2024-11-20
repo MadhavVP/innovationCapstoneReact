@@ -123,7 +123,7 @@ const quiz = {
 };
 
 const QuizPage = () => {
-    const [quizResult, setQuizResult] = useState(null);
+    const [setQuizResult] = useState(null);
 
     useEffect(() => {
         window.scrollTo(0, 0);
