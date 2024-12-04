@@ -10,6 +10,7 @@ import INFO from "../data/user";
 import SEO from "../data/seo";
 
 import "./styles/about.css";
+import { Link } from "react-router-dom";
 
 const Browser = () => {
 	useEffect(() => {
@@ -68,6 +69,12 @@ const Browser = () => {
 										reminding users to be vigilant.</li>
 								  </ul>
 								</div>
+
+								<div className="about-subheading">
+									Video Demo
+								</div>
+
+								<Link>https://www.youtube.com/watch?v=YpvcCwOwGLc</Link>
 
 								<div className="about-subheading">
 									Where can I get it?
