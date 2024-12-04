@@ -71,7 +71,7 @@ const Browser = () => {
 								</div>
 
 								<div className="about-subheading">
-									Video Demo
+									Browser Extension Demo
 								</div>
 
 								<Link>https://www.youtube.com/watch?v=YpvcCwOwGLc</Link>
@@ -83,8 +83,11 @@ const Browser = () => {
 								<div className="subtitle about-subtitle">
 									You can download this extension from 
 									our <a className="subtitle about-link" target="_blank" rel="noreferrer" href="https://github.com/Purdue-Innovation-Capstone/browser">GitHub repository</a> or 
-									from the <a className="subtitle about-link" target="_blank" rel="noreferrer" href="https://chromewebstore.google.com/category/extensions">Chrome web store</a>. 
+									from the <a className="subtitle about-link" target="_blank" rel="noreferrer" href="https://chromewebstore.google.com/category/extensions">Chrome web store</a>.
+									<br></br><br></br> 
+									Here is a video <a className="subtitle about-link" target="_blank" rel="noreferrer" href="https://www.youtube.com/watch?v=c0lvDv77Xa4">demo</a> of the download. 
 								</div>
+
 							</div>
 
 							{/* <div className="about-left-side">
