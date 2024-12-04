@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import { useNavigate } from "react-router-dom";
 import { Helmet } from "react-helmet";
 
 import { faMailBulk } from "@fortawesome/free-solid-svg-icons";
@@ -26,7 +25,6 @@ const Homepage = () => {
 	const [stayLogo, setStayLogo] = useState(false);
 	const [logoSize, setLogoSize] = useState(80);
 	const [oldLogoSize, setOldLogoSize] = useState(80);
-	const navigate = useNavigate();
 
 	useEffect(() => {
 		window.scrollTo(0, 0);
@@ -78,6 +76,14 @@ const Homepage = () => {
 					content={currentSEO.keywords.join(", ")}
 				/>
 			</Helmet>
+			<Helmet>
+				<title>{INFO.main.title}</title>
+				<meta name="about" content={currentSEO.about} />
+				<meta
+					name="keywords"
+					content={currentSEO.keywords.join(", ")}
+				/>
+			</Helmet>
 
 			<div className="page-content">
 				<NavBar active="home" />
@@ -109,6 +115,16 @@ const Homepage = () => {
 											className="homepage-image"
 										/>
 									</div>
+								</div>
+							</div>
+						</div>
+						<div className="homepage-second-area">
+							<div className="homepage-second-area-content">
+								<div className="title homepage-title2">
+									{INFO.homepage.title2}
+								</div>
+								<div className="subtitle homepage-subtitle">
+									{INFO.homepage.about}
 								</div>
 							</div>
 						</div>
