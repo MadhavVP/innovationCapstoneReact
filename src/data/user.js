@@ -100,7 +100,7 @@ const INFO = {
 		{
 			title: "Browser Extension",
 			description:
-				"A browser extension is designed to increase" +
+				"A browser extension designed to increase" +
 				" awareness about misinformation by warning users" +
 				" when they encounter flagged websites.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
