@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+//import { useNavigate } from "react-router-dom";
 import { Helmet } from "react-helmet";
 
 import { faMailBulk } from "@fortawesome/free-solid-svg-icons";
@@ -25,6 +26,7 @@ const Homepage = () => {
 	const [stayLogo, setStayLogo] = useState(false);
 	const [logoSize, setLogoSize] = useState(80);
 	const [oldLogoSize, setOldLogoSize] = useState(80);
+	//const navigate = useNavigate();
 
 	useEffect(() => {
 		window.scrollTo(0, 0);
@@ -110,7 +112,7 @@ const Homepage = () => {
 								<div className="homepage-image-container">
 									<div className="homepage-image-wrapper">
 										<img
-											src="PurdueLogo.png"
+											src="ClassPhoto.jpg"
 											alt="about"
 											className="homepage-image"
 										/>
