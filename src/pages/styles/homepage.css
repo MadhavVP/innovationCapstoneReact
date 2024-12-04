@@ -37,13 +37,6 @@
 	width:auto;
 }
 
-.quiz-section {
-    display: flex;
-    justify-content: center; /* Centers horizontally */
-    align-items: center;    /* Centers vertically */
-    height: 50px;          /* Optional: adjust height as needed */
-    width: 100%;            /* Optional: adjust width as needed */
-}
 .homepage-first-area {
 	display: flex;
 	justify-content: space-between;
