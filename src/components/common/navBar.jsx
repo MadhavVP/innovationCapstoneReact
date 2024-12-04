@@ -75,7 +75,7 @@ const NavBar = (props) => {
 								<span>Resources</span>
 								{dropdownOpen && (
 								<ul className="dropdown">
-									<li><Link to="/resourcescs">CS Resources</Link></li>
+									<li><Link to="/resourcescs">Python</Link></li>
 									<li><Link to="/resources">Gen Resources</Link></li>
 								</ul>
 								)}
