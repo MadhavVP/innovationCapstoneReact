@@ -103,9 +103,9 @@ const INFO = {
 		},
 
 		{
-			title: "Researcher Resources",
+			title: "Python Resources",
 			description:
-				"Description of CS resources",
+				"A collection of digestible Python data collection guides for humanities and social science researchers",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			linkText: "View Project",
 			link: "/resourcescs",

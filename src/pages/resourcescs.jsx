@@ -49,7 +49,7 @@ const Resourcescs = () => {
 									{INFO.resourcescs.description}
 								</div>
 								<div className="subtitle about-subtitle">
-									 - Made by Simon Bosslet, (CS + DS, Class of 2028)
+									 - Made by <a className="subtitle about-link" target="_blank" rel="noreferrer"  href="https://www.linkedin.com/in/simpatbos">Simon Bosslet</a>, (CS + DS, Class of 2028)
 								</div>
 							</div>
 
