@@ -84,7 +84,7 @@ const INFO = {
 	resourcescs: {
 		title: "Python for Social Research",
 		description:
-			"This site aims to be a collection of digestible guides for humanities and social researchers who want to harness the power of Python to enhance their data collection abilities.",
+			"This page aims to be a collection of digestible guides for humanities and social researchers who want to harness the power of Python to enhance their data collection abilities.",
 	},
 
 	projects: [

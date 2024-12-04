@@ -68,13 +68,13 @@ const Resources = () => {
 					</div>
 					<div align="center">
 						<iframe title="resources-notion" src="https://v2-embednotion.com/1344eea483d480728cdfcc2bd91af018" 
-							width="100%" height="750px" border="2px" solid="#ccc" border-radius="10px" padding="none">
+							width="100%" height="1100px" border="2px" solid="#ccc" border-radius="10px" padding="none">
 						</iframe>
 					</div>
-					<div align="center">
+					{/* <div align="center">
 					<iframe title="politicians-notion" src="https://v2-embednotion.com/12f4eea483d480b4afc0e17054bdddbf"
 						width="100%" height="500px" border="2px" solid="#ccc" border-radius="10px" padding="none"></iframe>
-					</div>
+					</div> */}
 					<div className="page-footer">
 						<Footer />
 					</div>
