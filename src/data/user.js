@@ -16,19 +16,34 @@ const INFO = {
 	},
 
 	homepage: {
-		title: "Purdue Innovation Capstone",
+		title: "Our Project",
+		title2: "About the Innovation Capstone",
 		description:
-			"In our current moment, often known colloquially as the \"Information Age,\" the" +
-			" veracity of information is of incredible importance, yet we see the viral spread" +
-			" and consumption of \"bad\" information: misinformation, disinformation, and" +
-			" malinformation. These three forms of information are spread globally regarding" + 
-			" every event, from U.S. presidential elections to COVID health protocols, from the" +
-			" Russian invasion of Ukraine to the Maui wildfires. Even though more people have access" +
-			" to information sources than ever before, we still are living in the age of mis/dis/malinformation." +
-			" In this course, a multidisciplinary team of students developed a comprehensive web resource for" +
-			" understanding dis/misinformation deigned to destabilize social and political processes." +
-			" We also assembled information literacy tools to help citizens understand how to spot and" +
-			" understand mis/disinformation. Our work can be accessed below.",
+			"In this special edition of ILS 330, a multidisciplinary team of students will develop" +
+			" a comprehensive web resource for understanding dis/misinformation designed to destabilize" +
+			" social and political processes. We will utilize the 2024 U.S. elections as a resource for" +
+			" understanding future elections. This toolkit will provide resources, guidance, tools, and" +
+			" datasets related to foreign interference in domestic U.S. democratic processes in addition" +
+			" to known bad actors in extremist political movements and domestic conspiracy theories." +
+			" We plan to incorporate current resources such as the QAnon archives known as dChan, the" +
+			" QAnon crime maps developed at the University of Maryland, the Accelerationist Events Dataset," +
+			" Capitol Riot Tweet Dataset, and other publicly available datasets. Additionally, we will" +
+			" leverage Purdue’s unique student expertise in STEM to create new resources and data dashboards" +
+			" based on these datasets. We will also assemble information literacy tools to help citizens" +
+			" understand how to spot and understand mis/disinformation.",
+		about:
+			"Innovation Capstones are project-based learning environments for university undergraduate and" +
+			" graduate students. They are similar to senior design and \"capstone\" projects conducted at" +
+			" most universities, however, Innovation Capstones will engage students across all majors –" +
+			" business, science, policy, engineering, law, and beyond, to form full multidisciplinary project teams." +
+			" These Innovation Capstone teams will work on challenging problems/projects of interest from" +
+			" a broad set of stakeholders in the Department of Defense (DoD). Teams will use \"whole of business\"" +
+			" and \"whole of government\" approaches to develop their solutions. In some cases, student teams and" +
+			" their research topics may be entirely \"business\" or \"policy\" in nature. The intent of Innovation" +
+			" Capstones is to broaden the scope of traditional technical developments in areas important to" +
+			" national defense, by augmenting teams with students and faculty who can address team organization," +
+			" scheduling, financing, and overall business and management skills necessary to introduce new" +
+			" products and capabilities into DoD systems. Read more here: https://acqirc.org/innovation-capstone/",
 	},
 
 	about: {
