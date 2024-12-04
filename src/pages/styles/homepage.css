@@ -37,18 +37,28 @@
 	width:auto;
 }
 
-.quiz-section {
-    display: flex;
-    justify-content: center; /* Centers horizontally */
-    align-items: center;    /* Centers vertically */
-    height: 50px;          /* Optional: adjust height as needed */
-    width: 100%;            /* Optional: adjust width as needed */
-}
 .homepage-first-area {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 }
+
+.homepage-second-area {
+    display: flex;
+    justify-content: center; /* Centers the container horizontally */
+    align-items: center; /* Centers the container vertically */
+    margin-top: 50px;
+    flex-direction: column; /* Stacks children vertically */
+}
+
+.homepage-second-area-content {
+    width: 100%; /* Ensures the content spans the full width */
+}
+
+.homepage-title2 {
+    margin-bottom: 20px; /* Adds spacing between the title and paragraph */
+}
+
 
 .homepage-first-area-left-side {
 	display: flex;
