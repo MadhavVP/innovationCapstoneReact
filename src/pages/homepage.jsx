@@ -25,7 +25,6 @@ const Homepage = () => {
 	const [stayLogo, setStayLogo] = useState(false);
 	const [logoSize, setLogoSize] = useState(80);
 	const [oldLogoSize, setOldLogoSize] = useState(80);
-	const navigate = useNavigate();
 
 	useEffect(() => {
 		window.scrollTo(0, 0);
