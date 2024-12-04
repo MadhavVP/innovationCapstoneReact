@@ -48,6 +48,9 @@ const Resourcescs = () => {
 								<div className="subtitle about-subtitle">
 									{INFO.resourcescs.description}
 								</div>
+								<div className="subtitle about-subtitle">
+									 - Made by Simon Bosslet, (CS + DS, Class of 2028)
+								</div>
 							</div>
 
 							{/* <div className="about-left-side">

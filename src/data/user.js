@@ -67,16 +67,16 @@ const INFO = {
 	},
 
 	resourcescs: {
-		title: "CS Resources",
+		title: "Python for Social Research",
 		description:
-			"brief description of cs resources",
+			"This site aims to be a collection of digestible guides for humanities and social researchers who want to harness the power of Python to enhance their data collection abilities.",
 	},
 
 	projects: [
 		{
 			title: "Education Modules",
 			description:
-				"Description of education modules",
+				"A series of lesson plans for educators to teach students about the dangers of misinformation and how it impacts our society and politics.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			linkText: "View Project",
 			link: "/education",
