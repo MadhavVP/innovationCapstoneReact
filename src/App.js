@@ -10,7 +10,6 @@ import Browser from "./pages/browser";
 import Policy from "./pages/policy";
 import Resources from "./pages/resources";
 import Resourcescs from "./pages/resourcescs";
-import QuizPage from "./pages/quiz"
 
 import "./app.css";
  
@@ -27,7 +26,6 @@ function App() {
 				<Route path="/policy" element={<Policy />} />
 				<Route path="/resources" element={<Resources />} />
 				<Route path="/resourcescs" element={<Resourcescs />} />
-				<Route path="/quiz" element={<QuizPage />} />
 				<Route path="*" element={<Notfound />} />
 			</Routes>
 		</div>
