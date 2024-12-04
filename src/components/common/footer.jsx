@@ -30,8 +30,14 @@ const Footer = () => {
 						<li className="footer-nav-link-item-b">
 							<Link to="/contact">Contact Us</Link>
 						</li>
+						{/* <li  className="footer-credits-text">
+							Designed and developed by <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/MadhavVP/">Madhav Valiyaparambil</a> and <a target="_blank" rel="noreferrer"  href="https://www.linkedin.com/in/MadhavVP/">Angela Yan</a>
+						</li> */}
 					</ul>
 				</div>
+				<li  className="footer-credits-text">
+							Designed and developed by <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/MadhavVP/">Madhav Valiyaparambil</a> and <a target="_blank" rel="noreferrer"  href="https://www.linkedin.com/in/MadhavVP/">Angela Yan</a>
+						</li>
 
 				<div className="footer-credits">
 				</div>
