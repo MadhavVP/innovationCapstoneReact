@@ -165,14 +165,17 @@ const Homepage = () => {
 								/>
 							</a>
 						</div>
+						<div class="banner-container">
+							<div class="banner">
+								<p class="banner-text">
+									Take a look at our projects below!
+								</p>
+							</div>
+						</div>
 
 						<div className="homepage-projects">
 							<AllProjects />
 						</div>
-						
-						<button onClick={() => navigate("/quiz")} className="quiz-button">
-							Take Quiz
-						</button>
 						<div className="page-footer">
 							<Footer />
 						</div>

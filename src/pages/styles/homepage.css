@@ -11,6 +11,39 @@
 	padding-top: 25px;
 }
 
+.banner-container {
+	padding-top:30px;
+	padding-bottom:30px;
+}
+
+.banner {
+	position: relative;
+	justify-content: center;
+	font-family: var(--primary-font);
+	font-weight: bolder;
+	font-size: 25px;
+	background-color: #cfb991; /*#cfb991;*/
+
+	width: 100vw;
+    position: absolute;
+    left: 0;
+    right: 0;
+	text-align:center;
+}
+
+.banner-text {
+	margin-left: 30px;
+	letter-spacing: 0.5px;
+	width:auto;
+}
+
+.quiz-section {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center;    /* Centers vertically */
+    height: 50px;          /* Optional: adjust height as needed */
+    width: 100%;            /* Optional: adjust width as needed */
+}
 .homepage-first-area {
 	display: flex;
 	justify-content: space-between;
@@ -29,6 +62,7 @@
 
 .homepage-subtitle {
 	width: 95% !important;
+	color: #cfb991;
 	text-align: justify;
 }
 
@@ -76,7 +110,7 @@
 
 .homepage-projects {
 	flex-basis: 300px;
-	padding-top: 40px;
+	padding-top: 30px;
 }
 
 .homepage-articles {
