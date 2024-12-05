@@ -98,14 +98,15 @@
 
 .dropdown {
 	position: absolute;
-	text-align: center;
+	text-align: right;
+	padding: 0;
+	padding-right: 10px;
 	top: 100%;
 	left: 0;
-	transform: translateX(-22%); /* Center-align the dropdown under the Resources tab */
+	transform: translateX(-36.5%); /* Center-align the dropdown under the Resources tab */
 	background-color: #ffffff;
 	box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
 	list-style-type: none;
-	padding: 0;
 	margin: 0;
 	display: flex;
 	flex-direction: column;

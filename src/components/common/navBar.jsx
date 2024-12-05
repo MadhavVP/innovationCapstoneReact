@@ -64,19 +64,20 @@ const NavBar = (props) => {
 								<Link to="/policy">Policy</Link>
 							</li>
 							<li
-								className={
-									active === "resourcesmain"
-										? "nav-item active"
-										: "nav-item"
-								}
+								// className={
+								// 	(active === "resources" || active === "resourcescs")
+								// 		? "nav-item active"
+								// 		: "nav-item"
+								// }
+								className="nav-item"
 								onMouseEnter={toggleDropdown}
 								onMouseLeave={toggleDropdown}
 							>
-								<span>Resources</span>
+								<div>Resources</div>
 								{dropdownOpen && (
 								<ul className="dropdown">
-									<li><Link to="/resourcescs">Python</Link></li>
-									<li><Link to="/resources">Gen Resources</Link></li>
+									<li><Link to="/resources">General</Link></li>
+									<li><Link to="/resourcescs">Python-Based</Link></li>
 								</ul>
 								)}
 								{/* <Link to="/resources">Resources</Link> */}
