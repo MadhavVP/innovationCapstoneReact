@@ -103,9 +103,19 @@ const Browser = () => {
 							</div> */}
 						</div>
 					</div>
-					<div className="about-container">
-
+					<div className="credits">
+						<div className="about-subheading">
+							Credits:
 						</div>
+						<div className="subtitle">
+							Adarsh Veerapaneni (Computer Science)<br />
+							Jhanvi Mittal (Cybersecurity)<br />
+							Vernika Jain (Cybersecurity)<br />
+							Sruthi Malisetty (Cybersecurity)<br />
+							K. Saanvi Sampada (Computer Science)<br />
+							Aniruddh Srivastava (Computer Science)
+						</div>
+					</div>
 					<div className="page-footer">
 						<Footer />
 					</div>
