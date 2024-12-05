@@ -63,12 +63,12 @@ const Policy = () => {
 							</div> */}
 						</div>
 						<div className="about-container">
-
+							<div align="center">
+								<iframe title="Report" src="https://drive.google.com/file/d/1S3sNnV6rp2rwjZKL7zj5CAhZ4t1TptbY/preview" width="640" height="480" allow="autoplay"></iframe>
+							</div>
 						</div>
 					</div>
-					<div align="center">
-						<iframe title="Report" src="https://drive.google.com/file/d/1S3sNnV6rp2rwjZKL7zj5CAhZ4t1TptbY/preview" width="640" height="480" allow="autoplay"></iframe>
-					</div>
+					
 					<div className="page-footer">
 						<Footer />
 					</div>

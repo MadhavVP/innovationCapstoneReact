@@ -10,7 +10,6 @@ import INFO from "../data/user";
 import SEO from "../data/seo";
 
 import "./styles/about.css";
-import { Link } from "react-router-dom";
 
 const Browser = () => {
 	useEffect(() => {
@@ -74,7 +73,7 @@ const Browser = () => {
 									Browser Extension Demo
 								</div>
 
-								<Link>https://www.youtube.com/watch?v=YpvcCwOwGLc</Link>
+								<iframe width="560" height="315" src="https://www.youtube.com/embed/YpvcCwOwGLc?si=J2Oavv84_XZXBngu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 								<div className="about-subheading">
 									Where can I get it?
@@ -85,7 +84,8 @@ const Browser = () => {
 									our <a className="subtitle about-link" target="_blank" rel="noreferrer" href="https://github.com/Purdue-Innovation-Capstone/browser">GitHub repository</a> or 
 									from the <a className="subtitle about-link" target="_blank" rel="noreferrer" href="https://chromewebstore.google.com/category/extensions">Chrome web store</a>.
 									<br></br><br></br> 
-									Here is a video <a className="subtitle about-link" target="_blank" rel="noreferrer" href="https://www.youtube.com/watch?v=c0lvDv77Xa4">demo</a> of the download. 
+									Here is a video demo of the download. 
+									<iframe width="560" height="315" src="https://www.youtube.com/embed/c0lvDv77Xa4?si=fac2xi-FNoIwDsyi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 								</div>
 
 							</div>

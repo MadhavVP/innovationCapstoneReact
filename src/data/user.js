@@ -55,7 +55,7 @@ const INFO = {
 	education: {
 		title: "Education",
 		description:
-			"brief description of education",
+			"Our group has designed a series of four lesson plans on misinformation and how it affects our democracy. These plans cover topics such as misinformation and how it interacts with our democratic processes. They would also address the difference between misinformation and disinformation and how to identify potential fake stories in mainstream media. These modules would make it easier for educators to address such a topic, as we must educate our new voters on what is and isn’t trustworthy information in our political landscape.",
 	},
 
 	browser: {

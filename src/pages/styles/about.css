@@ -1,7 +1,7 @@
 .about-logo-container {
 	display: flex;
 	justify-content: left;
-	padding-top: 25px;
+	padding-top: 200px;
 }
 
 .about-logo {
@@ -18,7 +18,8 @@
 	flex-direction: column;
 	height: 100%;
 	margin: 0;
-	padding-top: 120px;
+	padding-top: 0px;
+	padding-bottom: 30px;
 }
 
 .about-main {
@@ -34,7 +35,7 @@
 }
 
 .about-subtitle {
-	width: 80% !important;
+	width: 90% !important;
 }
 
 .about-subtitle-bold {
