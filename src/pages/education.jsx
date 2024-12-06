@@ -66,7 +66,7 @@ const Education = () => {
 								<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTHZ9KvW2gepXAC2_GKzcRBLIgCUr58gi6BhS0tA1F210qJwm3daAgLapf0bTqw6w/embed?start=false&loop=true&delayms=3000"
 									/*THIS IS THE SLIDES EMBED*/
 									frameborder="0"
-									width="70%" height="389"
+									width="640" height="389"
 									title="module-1-firefox"
 									className="firefox"
 									allowfullscreen="true"
@@ -154,7 +154,7 @@ const Education = () => {
 									Rudolph Milliken (Cybersecurity)<br />
 									Will Richards<br />
 									Ben Eng (Applied Math, Computer Science)<br />
-									Teruki Gibeau<br />
+									Teruki Gibeau (Law & Society)<br />
 									Paula Ramos Perez (Computer Science, Political Science)<br />
 									Yajushi Gokhale (Computer Science)
 								</div>

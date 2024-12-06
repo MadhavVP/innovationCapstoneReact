@@ -62,10 +62,29 @@ const Policy = () => {
 								</div>
 							</div> */}
 						</div>
-						<div className="about-container">
+						<div className="about-container-report">
 							<div align="center">
-								<iframe title="Report" src="https://drive.google.com/file/d/1S3sNnV6rp2rwjZKL7zj5CAhZ4t1TptbY/preview" width="640" height="480" allow="autoplay"></iframe>
+								<iframe 
+									title="Report"
+									allowFullScreen="true"
+									src="https://drive.google.com/file/d/11FRLeq0kjHTAa9uO2tSR5w_IBqfWWah0/preview"
+									width="640" height="480"
+									allow="autoplay"></iframe>
+								{/* <iframe title="Report" src="https://drive.google.com/file/d/1S3sNnV6rp2rwjZKL7zj5CAhZ4t1TptbY/preview" width="640" height="480" allow="autoplay"></iframe> */}
 							</div>
+						</div>
+						<div className="credits">
+								<div className="about-subheading">
+									Credits:
+								</div>
+								<div className="subtitle">
+									Julian Kukor (Political Science)<br />
+									Andrew Fox (Cybersecturity)<br />
+									Barakah Abdo-Baari (Political Science)<br />
+									Molly Holthe (Political Science, Economics)<br />
+									Sarina Oliveri Kuhnle (Political Science, Environmental Science)<br />
+									Will Richards
+								</div>
 						</div>
 					</div>
 					

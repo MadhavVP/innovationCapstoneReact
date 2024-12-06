@@ -22,6 +22,15 @@
 	padding-bottom: 30px;
 }
 
+.about-container-report {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	margin: 0;
+	padding-top: 50px;
+	padding-bottom: 30px;
+}
+
 .about-main {
 	display: flex;
 }
@@ -138,6 +147,10 @@
 
 @media (max-width: 600px) {
 	.about-container {
+		padding-top: 60px;
+	}
+
+	.about-container-report {
 		padding-top: 60px;
 	}
 

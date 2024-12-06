@@ -48,6 +48,9 @@ const Resources = () => {
 								<div className="subtitle about-subtitle">
 									{INFO.resources.description}
 								</div>
+								<div className="subtitle about-subtitle">
+									 - Made by Derek Brubaker, (Political Science, Class of 2025)
+								</div>
 								</div>
 
 								{/* <div className="about-left-side">

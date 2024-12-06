@@ -72,7 +72,16 @@ const INFO = {
 	policy: {
 		title: "Policy Report",
 		description:
-			"brief description of policy report",
+			"This report aims to outline and communicate how misinformation"
+			+ " and disinformation impact our political and social climate. "
+			+ "Covering both modern and historical contexts, this paper defines"
+			+ " misinformation and disinformation and looks at how the spread of misinformation"
+			+ " interacts with the government. Using this basis, we address how legislation has"
+			+ " both altered and failed to contain the spread of misinformation and how constant"
+			+ " action is needed to ensure national security and election integrity. "
+			+ "This report also explores the First Amendment and legal precedence which may give some guidance to policymakers."
+			+ " Lastly, this paper addresses possible ideas on how to remedy or at least mitigate this issue, such as looking towards other"
+			+ " governments for potential legislative solutions. ",
 	},
 
 	resources: {
@@ -111,7 +120,10 @@ const INFO = {
 		{
 			title: "Policy Proposal",
 			description:
-				"Description of policy",
+				"A policy report that outlines the impact that misinformation and disinformation"
+				+ " have had on our democracy.",
+				// + "We address both how government has impacted misinformation"
+				// + " and how misinformation has impacted government.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
 			linkText: "View Project",
 			link: "/policy",
@@ -120,7 +132,7 @@ const INFO = {
 		{
 			title: "Python Resources",
 			description:
-				"A collection of digestible Python data collection guides for humanities and social science researchers",
+				"A collection of digestible Python data collection guides for humanities and social science researchers.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			linkText: "View Project",
 			link: "/resourcescs",
