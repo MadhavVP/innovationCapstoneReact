@@ -81,8 +81,8 @@ const Browser = () => {
 
 								<div className="subtitle about-subtitle">
 									You can download this extension from 
-									our <a className="subtitle about-link" target="_blank" rel="noreferrer" href="https://github.com/Purdue-Innovation-Capstone/browser">GitHub repository</a> or 
-									from the <a className="subtitle about-link" target="_blank" rel="noreferrer" href="https://chromewebstore.google.com/category/extensions">Chrome web store</a>.
+									our <a className="subtitle about-link" target="_blank" rel="noreferrer" href="https://github.com/Purdue-Innovation-Capstone/browser">GitHub repository</a>.
+									{/* or from the <a className="subtitle about-link" target="_blank" rel="noreferrer" href="https://chromewebstore.google.com/category/extensions">Chrome web store</a>. */}
 									<br></br><br></br> 
 									Here is a video demo of the download. 
 									<iframe width="560" height="315" src="https://www.youtube.com/embed/c0lvDv77Xa4?si=fac2xi-FNoIwDsyi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
