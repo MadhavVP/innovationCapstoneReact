@@ -55,12 +55,23 @@ const Education = () => {
 								<div className="about-subheading">
 									Module 1
 								</div>
+								{/* THIS IS THE POWERPOINT EMBED
 								<iframe src="https://purdue0-my.sharepoint.com/:p:/g/personal/milliker_purdue_edu/EWPl1Kn6c2pMgcQGbl3kdO4BZNxJk-tG9Cn_swVkBWFFmw?e=brBOsU&amp;action=embedview&amp;wdAr=1.7777777777777777" 
 									width="70%" 
 									height="460px" 
 									title="module-1"
 									frameborder="0">
 										This is an embedded <a target="_blank" rel="noreferrer" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" rel="noreferrer" href="https://office.com/webapps">Office</a>
+								</iframe> */}
+								<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTHZ9KvW2gepXAC2_GKzcRBLIgCUr58gi6BhS0tA1F210qJwm3daAgLapf0bTqw6w/embed?start=false&loop=true&delayms=3000"
+									/*THIS IS THE SLIDES EMBED*/
+									frameborder="0"
+									width="70%" height="389"
+									title="module-1-firefox"
+									className="firefox"
+									allowfullscreen="true"
+									mozallowfullscreen="true"
+									webkitallowfullscreen="true">
 								</iframe>
 								<a href="https://purdue0-my.sharepoint.com/:p:/g/personal/milliker_purdue_edu/EWPl1Kn6c2pMgcQGbl3kdO4BZNxJk-tG9Cn_swVkBWFFmw?e=brBOsU">Education Project ILS 330 - Module 1.pptx</a>
 
@@ -68,24 +79,46 @@ const Education = () => {
 								<div className="about-subheading">
 									Module 2
 								</div>
-								<iframe src="https://purdue0-my.sharepoint.com/:p:/g/personal/milliker_purdue_edu/EYb8lBiCZvNMqYzxnIHf_psBPBA3iiyP2ufe6bywWgvY_w?e=pG3RZD&amp;action=embedview&amp;wdAr=1.7777777777777777" 
-									width="70%" 
+								{/* <iframe src="https://purdue0-my.sharepoint.com/:p:/g/personal/milliker_purdue_edu/EYb8lBiCZvNMqYzxnIHf_psBPBA3iiyP2ufe6bywWgvY_w?e=pG3RZD&amp;action=embedview&amp;wdAr=1.7777777777777777" 
+									width="640px%" 
 									height="460px" 
 									title="module-2"
-									frameborder="0">
+									frameborder="0"
+									allowfullscreen="true"
+									mozallowfullscreen="true"
+									webkitallowfullscreen="true">
 										This is an embedded <a target="_blank" rel="noreferrer" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" rel="noreferrer" href="https://office.com/webapps">Office</a>.
+								</iframe> */}
+								<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQjdfgCM14ZxFj6ZR8CGJtFma3Enf3L3PhVmPjvbP4Mxy93BzuHt9zHOimr5Ce4DQ/embed?start=false&loop=true&delayms=5000"
+									title="module-2-slides"
+									frameborder="0"
+									width="640" height="389"
+									allowfullscreen="true"
+									mozallowfullscreen="true"
+									webkitallowfullscreen="true">
+
 								</iframe>
 								<a href="https://purdue0-my.sharepoint.com/:p:/g/personal/milliker_purdue_edu/EYb8lBiCZvNMqYzxnIHf_psBPBA3iiyP2ufe6bywWgvY_w?e=pG3RZD">Education Project ILS 330 - Module 2.pptx</a>
 								
 								<div className="about-subheading">
 									Module 3
 								</div>
-								<iframe src="https://purdue0-my.sharepoint.com/:p:/g/personal/milliker_purdue_edu/EZy_KTRa1B1Ana015ip_BCABLzaliluy-tlFom6-CiNo2Q?e=hjFczB&amp;action=embedview&amp;wdAr=1.7777777777777777" 
+								{/* <iframe src="https://purdue0-my.sharepoint.com/:p:/g/personal/milliker_purdue_edu/EZy_KTRa1B1Ana015ip_BCABLzaliluy-tlFom6-CiNo2Q?e=hjFczB&amp;action=embedview&amp;wdAr=1.7777777777777777" 
 									width="70%" 
 									height="460px" 
 									title="module-3"
 									frameborder="0">
 										This is an embedded <a target="_blank" rel="noreferrer" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" rel="noreferrer" href="https://office.com/webapps">Office</a>.
+										
+								</iframe> */}
+								<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTmS62CL3SHE-Qi4cClQYnTYOjjSgzCHci3edhEUhcparD5JWEe75REb6qe0NF9DQ/embed?start=false&loop=true&delayms=5000"
+									title="module-3-slides"
+									frameborder="0"
+									width="640"
+									height="389"
+									allowfullscreen="true"
+									mozallowfullscreen="true"
+									webkitallowfullscreen="true">
 										
 								</iframe>
 								<a href="https://purdue0-my.sharepoint.com/:p:/g/personal/milliker_purdue_edu/EZy_KTRa1B1Ana015ip_BCABLzaliluy-tlFom6-CiNo2Q?e=hjFczB">Education Project ILS 330 - Module 3.pptx</a>
@@ -94,12 +127,21 @@ const Education = () => {
 								<div className="about-subheading">
 									Module 4
 								</div>
-								<iframe src="https://purdue0-my.sharepoint.com/:p:/g/personal/milliker_purdue_edu/ER_K8flvXB9Lk2KN4WSllBYBbAyzee-4NNk6IlEFJ8HRwg?e=AwDwTk&amp;action=embedview&amp;wdAr=1.7777777777777777" 
+								{/* <iframe src="https://purdue0-my.sharepoint.com/:p:/g/personal/milliker_purdue_edu/ER_K8flvXB9Lk2KN4WSllBYBbAyzee-4NNk6IlEFJ8HRwg?e=AwDwTk&amp;action=embedview&amp;wdAr=1.7777777777777777" 
 									width="70%" 
 									height="460px" 
 									title="module-4"
 									frameborder="0">
 										This is an embedded <a target="_blank" rel="noreferrer" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" rel="noreferrer" href="https://office.com/webapps">Office</a>.
+								</iframe> */}
+								<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vR6VPYyjpxRUOaQNY6WuP5mtj0bFITh_8heuVYvzHiA4OGaK7zepG9_5KsGXrtBoQ/embed?start=false&loop=true&delayms=5000"
+									title="module-4-slides"
+									frameborder="0"
+									width="640" height="389"
+									allowfullscreen="true"
+									mozallowfullscreen="true"
+									webkitallowfullscreen="true">
+
 								</iframe>
 								<a href="https://purdue0-my.sharepoint.com/:p:/g/personal/milliker_purdue_edu/ER_K8flvXB9Lk2KN4WSllBYBbAyzee-4NNk6IlEFJ8HRwg?e=AwDwTk">Education Project ILS 330 - Module 4.pptx</a>
 
