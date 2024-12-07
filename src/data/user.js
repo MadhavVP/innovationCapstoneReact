@@ -87,7 +87,7 @@ const INFO = {
 	resources: {
 		title: "Resources",
 		description:
-			"brief description of resources",
+			"These general resources aim to inform on what disinformation is, and how to seek and refute it.",
 	},
 
 	resourcescs: {
@@ -141,7 +141,7 @@ const INFO = {
 		{
 			title: "Resources",
 			description:
-				"Description of resources",
+				"A collection of resources on different aspects of disinformation.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			linkText: "View Project",
 			link: "/resources",
