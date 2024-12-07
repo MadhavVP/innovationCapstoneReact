@@ -152,7 +152,7 @@ const Education = () => {
 								</div>
 								<div className="subtitle">
 									Rudolph Milliken (Cybersecurity)<br />
-									Will Richards<br />
+									Will Richards (Cybersecurity)<br />
 									Ben Eng (Applied Math, Computer Science)<br />
 									Teruki Gibeau (Law & Society)<br />
 									Paula Ramos Perez (Computer Science, Political Science)<br />

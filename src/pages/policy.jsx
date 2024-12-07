@@ -83,7 +83,7 @@ const Policy = () => {
 									Barakah Abdo-Baari (Political Science)<br />
 									Molly Holthe (Political Science, Economics)<br />
 									Sarina Oliveri Kuhnle (Political Science, Environmental Science)<br />
-									Will Richards
+									Will Richards (Cybersecurity)
 								</div>
 						</div>
 					</div>
